@@ -1,0 +1,54 @@
+#PageContents table {
+  background-color: #7b1f00;
+  border: 4px solid #3b0900;
+  width: 30%;
+  position: fixed;
+  left: 30%;
+  top: 18%;
+}
+
+#PageContents td {
+  padding: 5%;
+}
+
+.btn-success {
+  margin: 3% auto;
+}
+
+.petActions {
+  position: fixed;
+  left: 3%;
+  top: 18%;
+  text-align: left;
+}
+
+.petImage {
+  float: right;
+  height: 400px;
+  width: 400px;
+  border: 3px solid red;
+  position: fixed;
+  right: 3%;
+  top: 18%;
+}
+
+.petColor {
+  height: 400px;
+  width: 400px;
+  border: 3px solid yellow;
+  float: right;
+  position: fixed;
+  right: 3%;
+  top: 18%;
+  filter: invert(56%) sepia(77%) saturate(4895%) hue-rotate(165deg) brightness(100%) contrast(101%);
+}
+
+.petEyeColor {
+  height: 400px;
+  width: 400px;
+  border: 3px solid blue;
+  float: right;
+  position: fixed;
+  right: 3%;
+  top: 18%;
+}

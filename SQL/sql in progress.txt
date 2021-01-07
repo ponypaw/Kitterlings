@@ -1,0 +1,23 @@
+CREATE TABLE users (
+	id INTEGER PRIMARY KEY
+	username TEXT UNIQUE NOT NULL,
+	password TEXT NOT NULL,
+	birthday TEXT NOT NULL,
+	email TEXT NOT NULL,
+	
+);
+
+
+/*
+CREATE TABLE creates a new table.
+INSERT INTO adds a new row to a table.
+SELECT queries data from a table.
+UPDATE edits a row in a table.
+ALTER TABLE changes an existing table.
+DELETE FROM deletes rows from a table.
+*/
+
+
+
+
+

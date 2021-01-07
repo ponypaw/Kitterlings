@@ -1,0 +1,118 @@
+/* || General Styles */
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  background-image: url("../StaticImages/bgroundpic.png");
+  color: #4a0d00;
+  line-height: 1rem;
+}
+
+section {
+  margin: auto;
+  padding: 3%;
+}
+
+table {
+  text-align: center;
+  color: #fff;
+  table-layout: fixed;
+}
+
+td {
+  padding: 3px;
+  border: 1px solid;
+  text-align: right;
+}
+
+th {
+  padding-bottom: 10px;
+}
+
+/* || ID Styles */
+
+#Header {
+  background-color: #783f04;
+  padding: 1% 0 1% 1%;
+  width: 90%;
+
+}
+
+
+#PageContents {
+  /* background-color: #fce5cd; */
+  text-align: center;
+  width: 85%;
+}
+
+#logInForm {
+  margin-right: 1%;
+  font-size: 0.75rem;
+  text-align: center;
+  background-color: #fce5cd;
+}
+
+#footer {
+  background-color: #783f04;
+  width: 90%;
+  margin: auto;
+  bottom: 50px;
+}
+
+/* || Header Styles */
+
+.headerDiv {
+  height: 100px;
+}
+
+.headerLinks {
+  text-align: center;
+  margin: 1% auto;
+}
+
+.headerLogo {
+  float: left;
+  height: 30%;
+  border-radius: 5%;
+  margin-right: 3%;
+}
+
+.userParagraph {
+  border: 3px solid; height: 100%;
+  text-align: right;
+  line-height: 1.3rem;
+}
+
+.userAvatar {
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+
+.fancyText {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3rem;
+}
+
+
+
+/* || Footer Stles */
+
+.footerButton {
+  margin: 2% 1%;
+  background-color: #332211;
+  width: 10%;
+}
+
+.copyrightInfo {
+  padding-bottom: 1.5%;
+}
+
+/* || Small Screen Adjustments */
+
+@media screen and (max-width: 480px) {
+  .footerButton {
+    width: 20%;
+  }
+}

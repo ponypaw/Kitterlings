@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="StaticImages\favicon.ico">
+    <link rel="stylesheet" href="CSS\CSSV2.css">
+
+    <title>Miw</title>
+  </head>
+  <body>
+    <section id="Header">
+      <div class="row headerDiv">
+        <div class="col-md-8">
+          <a href="index.html"> <img src="StaticImages\Logo.png" alt="MIW logo" class="headerLogo"> </a>
+          <table class="headerLinks">
+            <tr>
+              <th colspan="6"> <span class="fancyText"> Welcome to Land Name </span> </th>
+            </tr>
+            <tr>
+              <td> <button type="submit" onclick="location.href = 'den.html';" class="btn btn-outline-light">Den</button> </td>
+              <td> <button type="button" onclick="location.href = 'contacts.html';" class="btn btn-outline-light">Contacts</button> </td>
+              <td> <button type="button" onclick="location.href = 'forums.html';" class="btn btn-outline-light">Forums</button> </td>
+              <td> <button type="button" onclick="location.href = 'games.html';" class="btn btn-outline-light">Games</button> </td>
+              <td> <button type="button" onclick="location.href = 'explore.html';" class="btn btn-outline-light">Explore</button> </td>
+              <td> <button type="button" onclick="location.href = 'shops.html';" class="btn btn-outline-light">Shops</button> </td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-sm-3 text-wrap">
+          <section id="logInForm">
+            <!-- <span class="loggedIn">
+              <p class="userParagraph text-monospace">
+                      <b>Username</b>  <br>
+                      <img class="userAvatar" src="StaticImages\UserTag.png" alt="userTag">
+                    Miw Money: <span class="MiwMoney">12345</span>
+                    <br>
+                    Mewchies: <span class="Mewchies">1235784</span>
+                    <br>
+                    Catnip: <span class="MiwMoney">12</span>
+              </p>
+            </span> -->
+            <span class="notLoggedIn">
+              <form class="logInForm" action="index.html" method="post">
+                <fieldset>
+                  <p>
+                    <label for="username">Username</label>
+                    <input type="text" name="username">
+                    <input type="submit" value="LogIn">
+                  </p>
+                  <p>
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+                    <input type="reset" value="Clear">
+                  </p>
+
+                </fieldset>
+              </form>
+            </span>
+          </section>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="PageContents">
+      Games Page
+    </section>
+
+    <footer id="footer" class="fixed-bottom">
+          <button type="button" class="btn btn-secondary btn-sm footerButton">Contact</button> | <button type="button" class="btn btn-secondary btn-sm footerButton">Support</button> | <button type="button" class="btn btn-secondary btn-sm footerButton">FAQ</button> | <button type="button" class="btn btn-secondary btn-sm footerButton">Rules</button>
+          <p class="copyrightInfo">© Copyright 2020 BlueBatBay</p>
+    </footer>
+
+
+
+
+
+  </body>
+</html>
